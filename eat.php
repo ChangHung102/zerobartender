@@ -1,2 +1,3 @@
 <?php
-if(　$_GET['food']　!= ''){echo '姓名:'.$_GET['user_name'].'<br />';}else{echo '無名氏';}
+if(　$_GET['food']　== 'r'){echo '吃:'.$_GET['food'].'<br />';}else{echo '不吃:'.$_GET['food'].'<br />';}
+if(　$_GET['food']　== 'r'){echo '吃:'.$_GET['food'].'<br />';}else{echo '不吃:'.$_GET['food'].'<br />';}
