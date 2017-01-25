@@ -7,7 +7,7 @@
 <body>
 <h1>???吃蝦米???</h1>
 
-<form action="" method="get">
+<form action="" method="get" onsubmit="showsubmit()">
   <select name="food"> 
   <option value="s">蝦子</option>
   <option value="r">白米</option> 
@@ -19,5 +19,11 @@
   <br><br>
  <input type="submit" value="submit">
 </form>
+  <script language="javascript">
+    function showsubmit(){
+    var Today=new Date();
+　   alert("今天日期是 " + Today.getFullYear()+ " 年 " + (Today.getMonth()+1) + " 月 " + Today.getDate() + " 日"+"快決定!!!!");
+    }
+  </script>
   
 </body>
